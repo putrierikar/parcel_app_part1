@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:parcel_app_part1/ui/widgets/widgets.dart';
 import 'package:flutter_svg/svg.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -242,6 +243,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ],
       ),
+      bottomNavigationBar: const MyBottomNavigationBar(),
     );
   }
 }
